@@ -1,9 +1,6 @@
 # Temporarily make installations non-interactive
 export DEBIAN_FRONTEND=noninteractive
 
-# Move up one folder
-cd ..
-
 # Install Miniforge
 echo "Installing Miniforge..."
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
@@ -28,8 +25,12 @@ ollama pull dolphin-phi
 ollama list
 
 # Create an environment for gen-ai
-mamba create --name gen-ai python=3.10
+mamba env create -f env.yml -y
 mamba activate gen-ai
+pip3 install torch --index-url https://download.pytorch.org/whl/cu121
 
 # todo - clone stable diffusion, clone text-generation-webui
 # todo pip install ollama, gpt4all, whisper, etc
+
+# Move up one folder
+cd ..
