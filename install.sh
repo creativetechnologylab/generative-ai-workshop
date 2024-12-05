@@ -32,8 +32,11 @@ mamba env create -f env.yml -y
 mamba activate gen-ai
 pip3 install torch --index-url https://download.pytorch.org/whl/cu121
 
-# todo - clone stable diffusion, clone text-generation-webui
-# todo pip install ollama, gpt4all, whisper, etc
-
 # Move up one folder
 cd ..
+
+# Clone Stable Diffusion
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+
+# Clone text-generation-webui
+git clone https://github.com/oobabooga/text-generation-webui.git
