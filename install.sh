@@ -1,8 +1,8 @@
 # Temporarily make installations non-interactive
 export DEBIAN_FRONTEND=noninteractive
 
-# Install git and ranger
-sudo apt-get install git ranger
+# Install and ranger
+sudo apt-get install ranger
 echo "ranger=ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"" >> .bashrc
 
 # Install Miniforge
