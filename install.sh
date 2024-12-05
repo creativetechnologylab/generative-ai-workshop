@@ -8,8 +8,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 # Install and setup ranger
 sudo apt update
 sudo apt-get install -y ranger
-touch $HOME/.rangerdirsour
-echo "ranger=ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"" >> .bashrc
+echo "alias ranger='. ranger'" >> .bashrc
 
 # Get some Ollama models
 echo "Getting some Ollama models..."
