@@ -5,6 +5,7 @@ export DEBIAN_FRONTEND=noninteractive
 cd ..
 
 # Install and ranger
+sudo apt update
 sudo apt-get install ranger
 echo "ranger=ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"" >> .bashrc
 
