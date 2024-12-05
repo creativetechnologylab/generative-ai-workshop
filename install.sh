@@ -25,6 +25,7 @@ chmod +x ./Miniforge3-Linux-x86_64.sh
 ./Miniforge3-Linux-x86_64.sh -b
 /home/$USER/miniforge3/bin/mamba init
 source ~/.bashrc
+rm ./Miniforge3-Linux-x86_64.sh
 
 # Create an environment for gen-ai
 mamba env create -f env.yml -y
