@@ -8,6 +8,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 # Install and setup ranger
 sudo apt update
 sudo apt-get install -y ranger
+touch $HOME/.rangerdirsour
 echo "ranger=ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"" >> .bashrc
 
 # Get some Ollama models
@@ -21,8 +22,7 @@ echo "Installing Miniforge..."
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 chmod +x ./Miniforge3-Linux-x86_64.sh
 ./Miniforge3-Linux-x86_64.sh -b
-/home/$USER/miniforge3/bin/mamba init
-source ~/.bashrc
+/home/$USER/miniforge3/bin/mamba init && source ~/.bashrc
 
 # Create an environment for gen-ai
 mamba env create -f env.yml -y
