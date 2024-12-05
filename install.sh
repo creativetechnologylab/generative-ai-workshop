@@ -1,3 +1,5 @@
+#!/usr/bin/bash  -i
+
 # Temporarily make installations non-interactive
 export DEBIAN_FRONTEND=noninteractive
 
@@ -8,7 +10,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 # Install and setup ranger
 sudo apt update
 sudo apt-get install -y ranger
-echo "alias ranger='. ranger'" >> .bashrc
+echo "alias ranger='. ranger'" >> ~/.bashrc
 
 # Get some Ollama models
 echo "Getting some Ollama models..."
@@ -21,7 +23,8 @@ echo "Installing Miniforge..."
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 chmod +x ./Miniforge3-Linux-x86_64.sh
 ./Miniforge3-Linux-x86_64.sh -b
-/home/$USER/miniforge3/bin/mamba init && source ~/.bashrc
+/home/$USER/miniforge3/bin/mamba init
+exec bash
 
 # Create an environment for gen-ai
 mamba env create -f env.yml -y
