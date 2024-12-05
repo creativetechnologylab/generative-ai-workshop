@@ -1,14 +1,6 @@
 # Temporarily make installations non-interactive
 export DEBIAN_FRONTEND=noninteractive
 
-# Install Miniforge
-echo "Installing Miniforge..."
-wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
-chmod +x ./Miniforge3-Linux-x86_64.sh
-./Miniforge3-Linux-x86_64.sh -b
-/home/$USER/miniforge3/bin/mamba init
-source ~/.bashrc
-
 # Install Ollama
 echo "Installing Ollama..."
 curl -fsSL https://ollama.com/install.sh | sh
@@ -23,6 +15,14 @@ echo "Getting some Ollama models..."
 ollama pull moondream
 ollama pull dolphin-phi
 ollama list
+
+# Install Miniforge
+echo "Installing Miniforge..."
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+chmod +x ./Miniforge3-Linux-x86_64.sh
+./Miniforge3-Linux-x86_64.sh -b
+/home/$USER/miniforge3/bin/mamba init
+source ~/.bashrc
 
 # Create an environment for gen-ai
 mamba env create -f env.yml -y
