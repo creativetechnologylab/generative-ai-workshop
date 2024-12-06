@@ -9,7 +9,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 # Install and setup ranger
 sudo apt update
-sudo apt-get install -y ranger
+sudo apt-get install -y ranger tesseract-ocr
 echo "alias ranger='. ranger'" >> ~/.bashrc
 
 # Get some Ollama models
