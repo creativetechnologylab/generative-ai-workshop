@@ -28,7 +28,7 @@ source ~/.bashrc
 rm ./Miniforge3-Linux-x86_64.sh
 
 # Create an environment for gen-ai
-mamba env create -f env.yml -y
+mamba env create -f windows-env.yml -y
 mamba activate gen-ai
 pip3 install torch --index-url https://download.pytorch.org/whl/cu121
 

@@ -1,0 +1,10 @@
+ollama
+gpt4all
+whisper
+numpy
+requests
+transformers
+diffusers
+accelerate
+pytesseract
+pillow
