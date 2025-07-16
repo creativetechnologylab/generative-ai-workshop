@@ -38,5 +38,5 @@ cd ..
 # Clone Stable Diffusion
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 
-# Clone text-generation-webui
+# Clone text-generation-webui - may not use this in the end
 git clone https://github.com/oobabooga/text-generation-webui.git
