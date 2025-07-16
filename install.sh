@@ -16,6 +16,8 @@ echo "alias ranger='. ranger'" >> ~/.bashrc
 echo "Getting some Ollama models..."
 ollama pull moondream
 ollama pull dolphin-phi
+ollama pull deepseek-r1:7b
+ollama pull glm4:latest
 ollama list
 
 # Install Miniforge
