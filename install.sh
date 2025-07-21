@@ -29,6 +29,7 @@ chmod +x ./Miniforge3-Linux-x86_64.sh
 source ~/.bashrc
 eval "$(mamba shell hook --shell bash)"
 mamba activate
+mamba shell init --shell bash --root-prefix=~/.local/share/mamba
 rm ./Miniforge3-Linux-x86_64.sh
 
 # Create an environment for gen-ai
