@@ -25,11 +25,9 @@ echo "Installing Miniforge..."
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 chmod +x ./Miniforge3-Linux-x86_64.sh
 ./Miniforge3-Linux-x86_64.sh -b
-/home/$USER/miniforge3/bin/mamba shell
+/home/$USER/miniforge3/bin/mamba shell init
 source ~/.bashrc
-eval "$(mamba shell hook --shell bash)"
 mamba activate
-mamba shell init --shell bash --root-prefix=~/.local/share/mamba
 rm ./Miniforge3-Linux-x86_64.sh
 
 # Create an environment for gen-ai
