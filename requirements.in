@@ -8,3 +8,4 @@ diffusers
 accelerate
 pytesseract
 pillow
+ipykernel
