@@ -20,21 +20,6 @@ ollama pull deepseek-r1:7b
 ollama pull glm4:latest
 ollama list
 
-# Install Miniforge
-echo "Installing Miniforge..."
-wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
-chmod +x ./Miniforge3-Linux-x86_64.sh
-bash ./Miniforge3-Linux-x86_64.sh -b
-/home/$USER/miniforge3/bin/mamba shell init
-source /home/$USER/miniforge3/etc/profile.d/mamba.sh 
-mamba activate
-rm ./Miniforge3-Linux-x86_64.sh
-
-# Create an environment for gen-ai
-mamba env create -f windows-env.yml -y
-mamba activate gen-ai
-pip3 install torch --index-url https://download.pytorch.org/whl/cu121
-
 # Move up one folder
 cd ..
 
@@ -43,3 +28,11 @@ git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 
 # Clone text-generation-webui - may not use this in the end
 git clone https://github.com/oobabooga/text-generation-webui.git
+
+# Install Miniforge
+echo "Installing Miniforge..."
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+chmod +x ./Miniforge3-Linux-x86_64.sh
+bash ./Miniforge3-Linux-x86_64.sh -b
+/home/$USER/miniforge3/bin/mamba shell init
+rm ./Miniforge3-Linux-x86_64.sh
