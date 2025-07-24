@@ -24,9 +24,9 @@ ollama list
 echo "Installing Miniforge..."
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 chmod +x ./Miniforge3-Linux-x86_64.sh
-./Miniforge3-Linux-x86_64.sh -b
+bash ./Miniforge3-Linux-x86_64.sh -b
 /home/$USER/miniforge3/bin/mamba shell init
-source ~/.bashrc
+source /home/$USER/miniforge3/etc/profile.d/mamba.sh 
 mamba activate
 rm ./Miniforge3-Linux-x86_64.sh
 
