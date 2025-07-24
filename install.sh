@@ -36,3 +36,4 @@ chmod +x ./Miniforge3-Linux-x86_64.sh
 bash ./Miniforge3-Linux-x86_64.sh -b
 /home/$USER/miniforge3/bin/conda init
 rm ./Miniforge3-Linux-x86_64.sh
+source /home/$USER/miniforge3/etc/profile.d/conda.sh
