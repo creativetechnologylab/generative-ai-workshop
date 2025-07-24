@@ -37,3 +37,7 @@ bash ./Miniforge3-Linux-x86_64.sh -b
 /home/$USER/miniforge3/bin/conda init
 rm ./Miniforge3-Linux-x86_64.sh
 source /home/$USER/miniforge3/etc/profile.d/conda.sh
+conda activate
+conda create --name gen-ai python=3.10
+cd generative-ai-with-python
+pip install -r requirements.txt
