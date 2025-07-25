@@ -1,4 +1,4 @@
-#!/usr/bin/bash  -i
+#!/usr/bin/bash -i
 
 # Temporarily make installations non-interactive
 export DEBIAN_FRONTEND=noninteractive
