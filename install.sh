@@ -33,6 +33,9 @@ git clone https://github.com/oobabooga/text-generation-webui.git
 echo "Installing Miniforge..."
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 chmod +x ./Miniforge3-Linux-x86_64.sh
+
+exit 1
+
 bash ./Miniforge3-Linux-x86_64.sh -b
 /home/$USER/miniforge3/bin/conda init
 rm ./Miniforge3-Linux-x86_64.sh
