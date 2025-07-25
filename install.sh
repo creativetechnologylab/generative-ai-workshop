@@ -37,7 +37,7 @@ chmod +x ./Miniforge3-Linux-x86_64.sh
 bash ./Miniforge3-Linux-x86_64.sh -b
 /home/$USER/miniforge3/bin/conda init
 rm ./Miniforge3-Linux-x86_64.sh
-source ~/.bashrc
+exec bash
 conda activate
 conda create --name gen-ai python=3.10 -y
 conda activate gen-ai
