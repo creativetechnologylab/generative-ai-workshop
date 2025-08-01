@@ -28,10 +28,13 @@ style: |
 ---
 # Generative AI
 ![bg left:33%](../pictures/generative-ai.png)
+
 ---
-# Text-To-Image
+# Stable Diffusion
 ---
 # Generative Advesarial Networks (GANs)
+---
+# Autolume
 ---
 # Large Language Models (LLMs)
 ---
@@ -39,6 +42,8 @@ style: |
 ![bg left](../pictures/ollama.png)
 
 ---
-# AI Bias
----
 # Hallucination
+---
+# GPT4All
+---
+# AI Bias
