@@ -21,13 +21,15 @@ style: |
 # Generative AI with Python
 ---
 # Generative AI
-
----
-# Generative AI
 ![bg left:33%](../pictures/generative-ai.png)
 
+- image
+- text
+- video
+- audio
+
 ---
-# StableDiffusion
+# StableDiffusion (Diffusion Models?)
 
 - trained on lots of data
 - text-to-image
@@ -38,9 +40,18 @@ style: |
 ---
 # DreamBooth
 ---
+Go to notebook here.
+
+---
 # Generative Advesarial Networks (GANs)
 ---
 # Autolume
+---
+Comparison table.
+
+---
+Go to notebook here.
+
 ---
 # Large Language Models (LLMs)
 ---
