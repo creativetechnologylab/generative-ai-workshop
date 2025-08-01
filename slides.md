@@ -1,2 +1,0 @@
-# Generative AI with Python
-
