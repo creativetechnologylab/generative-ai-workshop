@@ -29,12 +29,24 @@ style: |
 - audio
 
 ---
-# StableDiffusion (Diffusion Models?)
+# GANs vs Diffusion Models
+
+Two approaches to generating images...
+---
+# Diffusion Models
 
 - trained on lots of data
-- text-to-image
+- prompt-driven
 - designed to generate anything
 - text-prompt based interaction (conditional generation)
+---
+# Generative Adversarial Networks (GANs)
+
+- trained on smaller, curated data
+- generates new instances of what it has been trained on
+- more trial-and-error involved
+- greater freedom to customise/control your model
+- more ethical (more on this later...)
 ---
 # Automatic1111 & ComfyUI
 ---
@@ -42,8 +54,6 @@ style: |
 ---
 Go to notebook here.
 
----
-# Generative Advesarial Networks (GANs)
 ---
 # Autolume
 ---
