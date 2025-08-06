@@ -23,30 +23,65 @@ style: |
 # Generative AI
 ![bg left:33%](../pictures/generative-ai.png)
 
-- image
-- text
-- video
-- audio
+_Generative artificial intelligence (AI) describes algorithms that can be used to create new content, including audio, code, images, text, videos, and other data._
 
 ---
-# GANs vs Diffusion Models
 
-Two approaches to generating images...
+- ChatGPT
+- StableDiffusion
+- Midjourney
+- Dall-E
+- Claude
+- Deepseek
+- Etc...
+
+---
+# Image Generation: GANs vs Diffusion Models
+
+Two approaches to generating images with AI.
+
 ---
 # Diffusion Models
 
-- trained on lots of data
+- trained on lots of data (in the millions)
 - prompt-driven
-- designed to generate anything
-- text-prompt based interaction (conditional generation)
+- designed to generate _anything_ (although the more novel, the more it's going to 'hallucinate')
+
 ---
 # Generative Adversarial Networks (GANs)
 
-- trained on smaller, curated data
+- trained on smaller, curated data (< 5000)
 - generates new instances of what it has been trained on
 - more trial-and-error involved
 - greater freedom to customise/control your model
-- more ethical (more on this later...)
+- more ethical
+  - or are they...?
+---
+# GANs in Action - This Person Does Not Exist
+
+https://thispersondoesnotexist.com/
+
+---
+# How a GAN Works
+
+- 
+
+---
+# How Diffusion Works
+
+---
+Comparison image goes here...
+
+<!-- "a picture of a cat" -> diffusion_cat.jpg
+1000s of cat pics -> gans_cat.jpg -->
+
+---
+# GAN Aesthetics vs Diffusion Aesthetics
+
+The latent space.
+
+<!-- Canny remember that phrase - need to look at notebook. -->
+
 ---
 # Automatic1111 & ComfyUI
 ---
