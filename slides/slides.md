@@ -47,6 +47,8 @@ Two approaches to generating images with AI.
 - prompt-driven
 - designed to generate _anything_ (although if the model hasn't seen very many examples of the thing you're asking for, the more it's going to 'hallucinate')
 
+Examples: Midjourney, Dall-E, StableDiffusion
+
 ---
 # Generative Adversarial Networks (GANs)
 
@@ -54,7 +56,7 @@ Two approaches to generating images with AI.
 - generates new instances of what it has been trained on
 - more trial-and-error involved
 - greater freedom to customise/control your model
-- more ethical
+- more ethical (more on this later)
 
 ---
 # GANs in Action - This Person Does Not Exist
@@ -92,9 +94,9 @@ We want our detective to be smart, so the criminal is forced to become really go
 ---
 
 
-# GAN Shortcomings
+# GAN Challenges
 
-If we have a detective that is far too ahead of the criminal, or a criminal who is far too ahead of the detective, this leads to a scenario called **converge failure.**
+If we have a detective that is far too ahead of the criminal, or a criminal who is far too ahead of the detective, this leads to a scenario called **convergence failure.**
 
 If the criminal becomes very good at creating just _one type_ of fake painting, we call this **mode collapse**.
 
@@ -106,18 +108,18 @@ If the criminal becomes very good at creating just _one type_ of fake painting, 
 ---
 # How Diffusion Works
 
----
-Comparison image goes here...
+![](../pictures/diffusion.png)
 
-<!-- "a picture of a cat" -> diffusion_cat.jpg
-1000s of cat pics -> gans_cat.jpg -->
+---
+
+# GANs vs. Text-To-Image
+
+![height:580px](../pictures/diffusion-and-gans.jpg)
 
 ---
 # GAN Aesthetics vs Diffusion Aesthetics
 
 The latent space.
-
-<!-- Canny remember that phrase - need to look at notebook. -->
 
 ---
 # Automatic1111 & ComfyUI
