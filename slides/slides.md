@@ -21,7 +21,7 @@ style: |
 # Generative AI with Python
 ---
 # Generative AI
-![bg left:33%](../pictures/generative-ai.png)
+![bg left:40%](../pictures/art-competition-winner.webp)
 
 _Generative artificial intelligence (AI) describes algorithms that can be used to create new content, including audio, code, images, text, videos, and other data._
 
@@ -45,7 +45,7 @@ Two approaches to generating images with AI.
 
 - trained on lots of data (in the millions)
 - prompt-driven
-- designed to generate _anything_ (although the more novel, the more it's going to 'hallucinate')
+- designed to generate _anything_ (although if the model hasn't seen very many examples of the thing you're asking for, the more it's going to 'hallucinate')
 
 ---
 # Generative Adversarial Networks (GANs)
@@ -55,7 +55,7 @@ Two approaches to generating images with AI.
 - more trial-and-error involved
 - greater freedom to customise/control your model
 - more ethical
-  - or are they...?
+
 ---
 # GANs in Action - This Person Does Not Exist
 
@@ -64,7 +64,44 @@ https://thispersondoesnotexist.com/
 ---
 # How a GAN Works
 
-- 
+Two "AI players" try to see who can outsmart who:
+
+- **Generator** - Creates fake images.
+- **Discriminator** - Is given a mix of fake images and real ones, and attempts to spot the fakes.
+
+
+---
+# How a GAN Works
+
+The Generator "wins" a round of the game if it fools the Discriminator while the Discriminator "wins" a round of the game if it spots the fakes. 
+
+The loser then goes away and tries to improve their strategy. This takes place for several turns.
+
+---
+
+# How a GAN Works
+
+![](../pictures/gans-metaphor.png)
+
+
+---
+# How a GAN Works
+
+We want our detective to be smart, so the criminal is forced to become really good at creating fake paintings. We want our criminal to be smart, so that it's fakes are actually convincing.
+
+---
+
+
+# GAN Shortcomings
+
+If we have a detective that is far too ahead of the criminal, or a criminal who is far too ahead of the detective, this leads to a scenario called **converge failure.**
+
+If the criminal becomes very good at creating just _one type_ of fake painting, we call this **mode collapse**.
+
+---
+# Mode Collapse
+
+![width:700px](../pictures/mode-collapse.png)
 
 ---
 # How Diffusion Works
