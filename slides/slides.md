@@ -75,7 +75,7 @@ Two "AI players" try to see who can outsmart who:
 ---
 # How a GAN Works
 
-The Generator "wins" a round of the game if it fools the Discriminator while the Discriminator "wins" a round of the game if it spots the fakes. 
+The Generator "wins" a round of the game if it fools the Discriminator while the Discriminator "wins" a round of the game if it spots the fakes.
 
 The loser then goes away and tries to improve their strategy. This takes place for several turns.
 
