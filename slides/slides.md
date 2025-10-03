@@ -114,39 +114,46 @@ If the criminal becomes very good at creating just _one type_ of fake painting, 
 
 # GANs vs. Text-To-Image
 
-![height:580px](../pictures/diffusion-and-gans.jpg)
+![height:550px](../pictures/diffusion-and-gans.jpg)
 
----
+<!-- ---
 # GAN Aesthetics vs Diffusion Aesthetics
 
-The latent space.
+The latent space. -->
 
 ---
-# Automatic1111 & ComfyUI
+
+Over to the notebook.
+
 ---
 # DreamBooth
----
+
 Go to notebook here.
 
 ---
 # Autolume
----
-Comparison table.
 
----
 Go to notebook here.
 
 ---
+
 # Large Language Models (LLMs)
+
 ---
+
 # Ollama
 ![bg left](../pictures/ollama.png)
 
 
 ---
 # GPT4All
+
 ---
 # Hallucination
+
+---
+
+# Other Considerations
 
 ---
 # AI Bias
