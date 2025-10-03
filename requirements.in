@@ -10,3 +10,8 @@ pytesseract
 pillow
 ipykernel
 py-dreambooth
+tensorboard
+ftfy
+gradio
+ipywidgets>=7,<8
+bitsandbytes
