@@ -102,7 +102,22 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 ![](../pictures/diffusion-8.png)
 
 ---
+# How Diffusion Works
+
+The knowledge on how to go from complete fog, to less foggy fog, and then to a fog-less image, is our **model.**
+
+---
+
+Go to notebook here.
+
+---
 # DreamBooth
+
+DreamBooth allows you to take an existing Stable Diffusion model and fine-tune it.
+
+---
+
+Go to notebook here.
 
 ---
 # Text Generation: Large Language Models (LLMs)
