@@ -41,12 +41,13 @@ _Generative artificial intelligence (AI) describes algorithms that can be used t
 - Etc...
 
 ---
-# Image Generation: Diffusion Models
+# Image Generation I
+## Diffusion Models
 
 ---
 # Diffusion Models
 
-- trained on lots of data (in the millions)
+- trained on lots of images (in the millions)
 - prompt-driven
 - designed to generate _anything_ (although if the model hasn't seen very many examples of the thing you're asking for, the more it's going to 'hallucinate')
 
@@ -55,11 +56,15 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 ---
 # How Diffusion Works
 
-![](../pictures/diffusion.png)
+* We take an image and gradually add "fog" to it
+* The original content of our image becomes harder and harder to see
+* Eventually, we can't see what was originally in the image at all
+* An "unfogger" is trained to _reverse_ this and go from a foggy image to a clear one
 
 ---
 # How Diffusion Works
 
+![](../pictures/diffusion.png)
 
 ---
 # DreamBooth
@@ -79,17 +84,18 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 # Hallucination
 
 ---
-# Image Generation 2: Generative Adversarial Networks (GANs)
+# Image Generation II
+## Generative Adversarial Networks (GANs)
 
 ---
-# What are GANs?
+# How do GANs compare to Stable Diffusion?
 
-- trained on smaller, curated data (< 5000)
+* trained on a smaller, hand-picked dataset (< 5000)
   - but you can get away with even smaller datasets in the 100s
-- generates new instances of what it has been trained on and nothing else
-- more trial-and-error involved
-- greater freedom to customise/control your model
-- more ethical (more on this later)
+* generates new instances of what it has been trained on and nothing else
+* more trial-and-error involved
+* greater freedom to customise/control your model
+* more ethical compared to Stable Diffusion (more on this later)
 
 ---
 # GANs in Action - This Person Does Not Exist
@@ -141,15 +147,24 @@ If our Criminal becomes very good at creating just _one type_ of fake painting, 
 # Autolume - GANs Made Easy
 
 ---
+
+
+---
 # GANs vs. Stable Diffusion
 
 ![height:550px](../pictures/diffusion-and-gans.jpg)
----
 
+---
 # Other Considerations
 
 ---
 # AI Bias
+
+---
+# Visual Hallucination
+
+---
+# Copyright
 
 ---
 # Peverse AI
