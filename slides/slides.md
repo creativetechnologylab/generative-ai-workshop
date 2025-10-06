@@ -19,6 +19,7 @@ style: |
   }
 ---
 # Generative AI with Python
+
 ---
 # Generative AI
 ![bg left:40%](../pictures/art-competition-winner.webp)
@@ -26,7 +27,6 @@ style: |
 _Generative artificial intelligence (AI) describes algorithms that can be used to create new content, including audio, code, images, text, videos, and other data._
 
 ---
-
 - ChatGPT
 - StableDiffusion
 - Midjourney
@@ -36,9 +36,7 @@ _Generative artificial intelligence (AI) describes algorithms that can be used t
 - Etc...
 
 ---
-# Image Generation: GANs vs Diffusion Models
-
-Two approaches to generating images with AI.
+# Image Generation: Diffusion Models
 
 ---
 # Diffusion Models
@@ -50,7 +48,35 @@ Two approaches to generating images with AI.
 Examples: Midjourney, Dall-E, StableDiffusion
 
 ---
-# Generative Adversarial Networks (GANs)
+# How Diffusion Works
+
+![](../pictures/diffusion.png)
+
+---
+Over to the notebook.
+
+---
+# DreamBooth
+
+---
+# Text Generation: Large Language Models (LLMs)
+
+---
+# Ollama
+![bg left](../pictures/ollama.png)
+
+
+---
+# GPT4All
+
+---
+# Hallucination
+
+---
+# Image Generation 2: Generative Adversarial Networks (GANs)
+
+---
+# What are GANs?
 
 - trained on smaller, curated data (< 5000)
 - generates new instances of what it has been trained on
@@ -64,36 +90,31 @@ Examples: Midjourney, Dall-E, StableDiffusion
 https://thispersondoesnotexist.com/
 
 ---
-# How a GAN Works
+# How a GAN Learns
 
 Two "AI players" try to see who can outsmart who:
 
 - **Generator** - Creates fake images.
 - **Discriminator** - Is given a mix of fake images and real ones, and attempts to spot the fakes.
 
-
 ---
-# How a GAN Works
+# How a GAN Lears
 
 The Generator "wins" a round of the game if it fools the Discriminator while the Discriminator "wins" a round of the game if it spots the fakes.
 
 The loser then goes away and tries to improve their strategy. This takes place for several turns.
 
 ---
-
-# How a GAN Works
+# How a GAN Learns
 
 ![](../pictures/gans-metaphor.png)
 
-
 ---
-# How a GAN Works
+# How a GAN Learns
 
 We want our detective to be smart, so the criminal is forced to become really good at creating fake paintings. We want our criminal to be smart, so that it's fakes are actually convincing.
 
 ---
-
-
 # GAN Challenges
 
 If we have a detective that is far too ahead of the criminal, or a criminal who is far too ahead of the detective, this leads to a scenario called **convergence failure.**
@@ -106,51 +127,14 @@ If the criminal becomes very good at creating just _one type_ of fake painting, 
 ![width:700px](../pictures/mode-collapse.png)
 
 ---
-# How Diffusion Works
+# Autolume - GANs Made Easy
 
-![](../pictures/diffusion.png)
+Go to notebook here.
 
 ---
-
-# GANs vs. Text-To-Image
+# GANs vs. Stable Diffusion
 
 ![height:550px](../pictures/diffusion-and-gans.jpg)
-
-<!-- ---
-# GAN Aesthetics vs Diffusion Aesthetics
-
-The latent space. -->
-
----
-
-Over to the notebook.
-
----
-# DreamBooth
-
-Go to notebook here.
-
----
-# Autolume
-
-Go to notebook here.
-
----
-
-# Large Language Models (LLMs)
-
----
-
-# Ollama
-![bg left](../pictures/ollama.png)
-
-
----
-# GPT4All
-
----
-# Hallucination
-
 ---
 
 # Other Considerations
