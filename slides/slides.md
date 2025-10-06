@@ -111,9 +111,9 @@ The knowledge on how to go from complete fog, to less foggy fog, and then to a f
 Go to notebook here.
 
 ---
-# DreamBooth
+# DreamBooth & LoRAs
 
-DreamBooth allows you to take an existing Stable Diffusion model and fine-tune it.
+DreamBooth and LoRAs both allow us to enhance an existing model.
 
 ---
 
@@ -213,10 +213,24 @@ If our Criminal becomes very good at creating just _one type_ of fake painting, 
 # AI Bias
 
 ---
-# Visual Hallucination
+# Visual "Hallucination"
+
+https://www.bing.com/images/create
+
+---
+# Visual "Hallucination"
+
+
 
 ---
 # Copyright
+
+https://www.bing.com/images/create
+
+---
+# Copyright
+
+![height:400](../pictures/dall-e-sonic.jpeg)
 
 ---
 # Peverse AI
