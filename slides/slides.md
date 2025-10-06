@@ -191,15 +191,24 @@ If we have a Detective that is far too ahead of the Criminal, or a Criminal who 
 If our Criminal becomes very good at creating just _one type_ of fake painting, we call this **mode collapse**.
 
 ---
-# Mode Collapse
+# GAN Challenges - Convergence Failure
+
+![height:450](../pictures/convergence-failure-ribs.png)
+
+---
+# GAN Challenges - Mode Collapse
 
 ![width:700px](../pictures/mode-collapse.png)
 
 ---
-# Autolume - GANs Made Easy
+# GAN Challenges - Mode Collapse
+
+![height:500](../pictures/mode-collapse-faces.webp)
 
 ---
+# Autolume - GANs Made Easy
 
+TODO.
 
 ---
 # GANs vs. Stable Diffusion
