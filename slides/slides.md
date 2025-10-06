@@ -220,7 +220,7 @@ https://www.bing.com/images/create
 ---
 # Visual "Hallucination"
 
-
+![height:500](../pictures/arabic-text-dall-e.jpeg)
 
 ---
 # Copyright
@@ -230,7 +230,7 @@ https://www.bing.com/images/create
 ---
 # Copyright
 
-![height:400](../pictures/dall-e-sonic.jpeg)
+![height:500](../pictures/dall-e-sonic.jpeg)
 
 ---
 # Peverse AI
