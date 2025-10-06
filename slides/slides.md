@@ -21,6 +21,11 @@ style: |
 # Generative AI with Python
 
 ---
+# Setup
+
+TODO.
+
+---
 # Generative AI
 ![bg left:40%](../pictures/art-competition-winner.webp)
 
@@ -45,7 +50,7 @@ _Generative artificial intelligence (AI) describes algorithms that can be used t
 - prompt-driven
 - designed to generate _anything_ (although if the model hasn't seen very many examples of the thing you're asking for, the more it's going to 'hallucinate')
 
-Examples: Midjourney, Dall-E, StableDiffusion
+Examples: Midjourney, Dall-E, Stable Diffusion
 
 ---
 # How Diffusion Works
@@ -53,7 +58,8 @@ Examples: Midjourney, Dall-E, StableDiffusion
 ![](../pictures/diffusion.png)
 
 ---
-Over to the notebook.
+# How Diffusion Works
+
 
 ---
 # DreamBooth
@@ -79,7 +85,8 @@ Over to the notebook.
 # What are GANs?
 
 - trained on smaller, curated data (< 5000)
-- generates new instances of what it has been trained on
+  - but you can get away with even smaller datasets in the 100s
+- generates new instances of what it has been trained on and nothing else
 - more trial-and-error involved
 - greater freedom to customise/control your model
 - more ethical (more on this later)
@@ -98,13 +105,6 @@ Two "AI players" try to see who can outsmart who:
 - **Discriminator** - Is given a mix of fake images and real ones, and attempts to spot the fakes.
 
 ---
-# How a GAN Lears
-
-The Generator "wins" a round of the game if it fools the Discriminator while the Discriminator "wins" a round of the game if it spots the fakes.
-
-The loser then goes away and tries to improve their strategy. This takes place for several turns.
-
----
 # How a GAN Learns
 
 ![](../pictures/gans-metaphor.png)
@@ -112,14 +112,25 @@ The loser then goes away and tries to improve their strategy. This takes place f
 ---
 # How a GAN Learns
 
-We want our detective to be smart, so the criminal is forced to become really good at creating fake paintings. We want our criminal to be smart, so that it's fakes are actually convincing.
+* The Criminal "wins" a round of the game if it fools the Detective with its fakes.
+* The Detective "wins" a round of the game if it spots the fakes.
+* The loser then goes away and tries to improve their _strategy_. The game is repeated for several rounds. 
+* Hopefully, with enough time, the Criminal learns to create masterpieces that the Detective can't tell apart from the real thing. 
+* This is called **convergence.** (but a GAN won't always converge!)
+
+---
+# How a GAN Learns
+
+We want our Detective to become smarter as time goes on, so the Criminal is forced to become really good at creating fake paintings. We want our Criminal to become smarter as time goes on, so that its fakes are actually convincing. 
+
+Ideally, both the Criminal and the Detective grow smarter at around the same pace as the game progresses, otherwise...
 
 ---
 # GAN Challenges
 
-If we have a detective that is far too ahead of the criminal, or a criminal who is far too ahead of the detective, this leads to a scenario called **convergence failure.**
+If we have a Detective that is far too ahead of the Criminal, or a Criminal who is far too ahead of the Detective, this can lead to a scenario called **convergence failure.**
 
-If the criminal becomes very good at creating just _one type_ of fake painting, we call this **mode collapse**.
+If our Criminal becomes very good at creating just _one type_ of fake painting, we call this **mode collapse**.
 
 ---
 # Mode Collapse
@@ -128,8 +139,6 @@ If the criminal becomes very good at creating just _one type_ of fake painting, 
 
 ---
 # Autolume - GANs Made Easy
-
-Go to notebook here.
 
 ---
 # GANs vs. Stable Diffusion
