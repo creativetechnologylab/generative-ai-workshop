@@ -47,9 +47,9 @@ _Generative artificial intelligence (AI) describes algorithms that can be used t
 ---
 # Diffusion Models
 
-- trained on lots of images (in the millions)
-- prompt-driven
-- designed to generate _anything_ (although if the model hasn't seen very many examples of the thing you're asking for, the more it's going to 'hallucinate')
+* trained on lots and lots of images (in the millions)
+* prompt-driven
+* designed to generate _anything_ (although if the model hasn't seen very many examples of the thing you're asking for, the more it's going to "hallucinate")
 
 Examples: Midjourney, Dall-E, Stable Diffusion
 
@@ -58,13 +58,48 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 
 * We take an image and gradually add "fog" to it
 * The original content of our image becomes harder and harder to see
-* Eventually, we can't see what was originally in the image at all
+* Eventually, we can't see what the original image looked like at all
 * An "unfogger" is trained to _reverse_ this and go from a foggy image to a clear one
 
 ---
 # How Diffusion Works
 
-![](../pictures/diffusion.png)
+![](../pictures/diffusion-1.png)
+
+---
+# How Diffusion Works
+
+![](../pictures/diffusion-2.png)
+
+---
+# How Diffusion Works
+
+![](../pictures/diffusion-3.png)
+
+---
+# How Diffusion Works
+
+![](../pictures/diffusion-4.png)
+
+---
+# How Diffusion Works
+
+![](../pictures/diffusion-5.png)
+
+---
+# How Diffusion Works
+
+![](../pictures/diffusion-4.png)
+
+---
+# How Diffusion Works
+
+![](../pictures/diffusion-7.png)
+
+---
+# How Diffusion Works
+
+![](../pictures/diffusion-8.png)
 
 ---
 # DreamBooth
@@ -75,7 +110,6 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 ---
 # Ollama
 ![bg left](../pictures/ollama.png)
-
 
 ---
 # GPT4All
@@ -91,16 +125,19 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 # How do GANs compare to Stable Diffusion?
 
 * trained on a smaller, hand-picked dataset (< 5000)
-  - but you can get away with even smaller datasets in the 100s
+  - but you can get away with even smaller datasets (100s)
 * generates new instances of what it has been trained on and nothing else
 * more trial-and-error involved
 * greater freedom to customise/control your model
-* more ethical compared to Stable Diffusion (more on this later)
+* more ethical compared to Stable Diffusion
 
 ---
 # GANs in Action - This Person Does Not Exist
 
 https://thispersondoesnotexist.com/
+
+---
+# GANs in Action - This Person Should Not Exist
 
 ---
 # How a GAN Learns
