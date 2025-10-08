@@ -106,15 +106,6 @@ The knowledge on how to go from complete fog, to less foggy fog, and then to a f
 Go to notebook here.
 
 ---
-# DreamBooth & LoRAs
-
-DreamBooth and LoRAs both allow us to enhance an existing model.
-
----
-
-Go to notebook here.
-
----
 # Text Generation: Large Language Models (LLMs)
 
 ---
