@@ -89,17 +89,12 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 ---
 # How Diffusion Works
 
-![](../pictures/diffusion-4.png)
-
----
-# How Diffusion Works
-
-![](../pictures/diffusion-7.png)
-
----
-# How Diffusion Works
-
 ![](../pictures/diffusion-8.png)
+
+---
+# How Diffusion Works
+
+![](../pictures/diffusion-final.png)
 
 ---
 # How Diffusion Works
