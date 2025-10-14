@@ -113,10 +113,11 @@ Go to notebook here.
 ![bg left](../pictures/ollama.png)
 
 - CLI-tool for running LLMs
-
-
+- allows running models locally
+- allows for privacy and offline functionality
+<!-- 
 ---
-# GPT4All
+# GPT4All -->
 
 ---
 
