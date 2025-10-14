@@ -23,7 +23,15 @@ style: |
 ---
 # Setup
 
-<!-- TODO -->
+- Install WSL and VSCode through Company Portal
+- Install Ubuntu
+- Go to linktr.ee/dolica.ual
+- Start the Autolume download
+- Download the Gen AI repo
+- Run script
+- Do VSCode setup
+
+This will take a while but once it's done, it's done.
 
 ---
 # Generative AI
