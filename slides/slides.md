@@ -24,17 +24,17 @@ style: |
 # First Setup
 
 - Install WSL and VSCode (through Company Portal)
-- Open Powershell / Command Prompt
-- Use command: `wsl.exe --install Ubuntu-24.04`
+- Open Powershell
+- Use command: `wsl.exe --install Ubuntu`
 - Go to linktr.ee/dolica.ual
 - Start the Autolume download
 
 ---
 # WSL Setup
 
-- Open Powershell / Command Prompt
+- Open Powershell
 - Start WSL: `wsl`
-- Pick a simple/memorable password
+- Pick a simple/memorable password like `ual`
 
 ---
 # WSL Setup
@@ -85,6 +85,8 @@ _Generative artificial intelligence (AI) describes algorithms that can be used t
 * designed to generate _anything_ (although if the model hasn't seen very many examples of the thing you're asking for, the more it's going to "hallucinate")
 
 Examples: Midjourney, Dall-E, Stable Diffusion
+
+![bg right:30%](../pictures/pope-drip.webp)
 
 ---
 # How Diffusion Works
@@ -148,9 +150,11 @@ Go to notebook here.
 - CLI-tool for running LLMs
 - allows running models locally
 - allows for privacy and offline functionality
-<!-- 
+
 ---
-# GPT4All -->
+# GPT4All
+
+
 
 ---
 
