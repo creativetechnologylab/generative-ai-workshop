@@ -21,17 +21,42 @@ style: |
 # Generative AI with Python
 
 ---
-# Setup
+# First Setup
 
-- Install WSL and VSCode through Company Portal
-- Install Ubuntu
+- Install WSL and VSCode (through Company Portal)
+- Open Powershell / Command Prompt
+- Use command: `wsl.exe --install Ubuntu-24.04`
 - Go to linktr.ee/dolica.ual
 - Start the Autolume download
-- Download the Gen AI repo
-- Run script
-- Do VSCode setup
 
-This will take a while but once it's done, it's done.
+---
+# WSL Setup
+
+- Open Powershell / Command Prompt
+- Start WSL: `wsl`
+- Pick a simple/memorable password
+
+---
+# WSL Setup
+
+```
+git clone ...
+cd generative-ai-workshop
+chmod +x install.sh env.sh
+./install.sh
+./env.sh
+conda activate gen-ai
+```
+
+---
+# VSCode Setup
+
+- Go to menu (left hand side)
+- Install these extensions:
+  - WSL
+  - Python
+  - Jupyter
+- Open the generative-ai-workshop folder
 
 ---
 # Generative AI
