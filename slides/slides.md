@@ -23,7 +23,7 @@ style: |
 ---
 # Setup
 
-TODO.
+<!-- TODO -->
 
 ---
 # Generative AI
@@ -104,16 +104,12 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 ---
 # How Diffusion Works
 
+![](../pictures/diffusion-final.png)
+
+---
+# How Diffusion Works
+
 The knowledge on how to go from complete fog, to less foggy fog, and then to a fog-less image, is our **model.**
-
----
-
-Go to notebook here.
-
----
-# DreamBooth & LoRAs
-
-DreamBooth and LoRAs both allow us to enhance an existing model.
 
 ---
 
@@ -126,11 +122,15 @@ Go to notebook here.
 # Ollama
 ![bg left](../pictures/ollama.png)
 
+- CLI-tool for running LLMs
+
+
 ---
 # GPT4All
 
 ---
-# Hallucination
+
+Head over to the notebook.
 
 ---
 # Image Generation II
@@ -151,8 +151,12 @@ Go to notebook here.
 
 https://thispersondoesnotexist.com/
 
+![height:400](../pictures/does-not-exist.webp)
+
 ---
 # GANs in Action - This Person Should Not Exist
+
+![height:350](../pictures/should-not-exist.png)
 
 ---
 # How a GAN Learns
@@ -174,7 +178,7 @@ Two "AI players" try to see who can outsmart who:
 * The Detective "wins" a round of the game if it spots the fakes.
 * The loser then goes away and tries to improve their _strategy_. The game is repeated for several rounds. 
 * Hopefully, with enough time, the Criminal learns to create masterpieces that the Detective can't tell apart from the real thing. 
-* This is called **convergence.** (but a GAN won't always converge!)
+* This is called **convergence.**
 
 ---
 # How a GAN Learns
@@ -207,8 +211,6 @@ If our Criminal becomes very good at creating just _one type_ of fake painting, 
 
 ---
 # Autolume - GANs Made Easy
-
-TODO.
 
 ---
 # GANs vs. Stable Diffusion
@@ -244,6 +246,10 @@ https://www.bing.com/images/create
 ---
 # Peverse AI
 
+## ChatGPT Romance
+
+https://www.youtube.com/watch?v=hEk0Tas7xgE
+
 ---
 # Random Stuff I Want to Include Somewhere...
 
@@ -251,6 +257,6 @@ ChatGPT Romance: https://www.youtube.com/watch?v=hEk0Tas7xgE
 The weird stuff my Mum is addicted to: https://www.youtube.com/watch?v=VA1jS9KgVM0
 
 ---
-# Note to Self
+<!-- # Note to Self
 - StyleGAN2-ADA Playlist: https://youtube.com/playlist?list=PLWuCzxqIpJs8ViuBIUtAk-dsAtdrApYoy&si=BaFkx0Jl_VBV4GFy
-- Autolume Thesis: https://summit.sfu.ca/item/36414
+- Autolume Thesis: https://summit.sfu.ca/item/36414 -->
