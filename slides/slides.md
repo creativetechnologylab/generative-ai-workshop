@@ -21,42 +21,43 @@ style: |
 # Generative AI with Python
 
 ---
-# First Setup
+# Setup
 
-- Install WSL and VSCode (through Company Portal)
 - Open Powershell
 - Use command: `wsl.exe --install Ubuntu`
-- Go to linktr.ee/dolica.ual
-- Start the Autolume download
+- REBOOT
 
 ---
-# WSL Setup
+# Setup
 
-- Open Powershell
-- Start WSL: `wsl`
+- Go to linktr.ee/dolica.ual
+- Start the Autolume download
+- Go to Start Menu
+- Launch Ubuntu
 - Pick a simple/memorable password like `ual`
 
 ---
 # WSL Setup
 
 ```
-git clone ...
-cd generative-ai-workshop
-chmod +x install.sh env.sh
-./install.sh
-./env.sh
-conda activate gen-ai
+>> git clone git@github.com:creativetechnologylab/generative-ai-workshop.git
+>> cd generative-ai-workshop
+>> chmod +x install.sh env.sh
+>> ./install.sh
+>> ./env.sh
+>> conda activate gen-ai
 ```
 
 ---
 # VSCode Setup
 
-- Go to menu (left hand side)
+- Start VSCode
+- Go to extensions menu (left hand side)
 - Install these extensions:
   - WSL
   - Python
   - Jupyter
-- Open the generative-ai-workshop folder
+- Open the `generative-ai-workshop` folder as a project
 
 ---
 # Generative AI
@@ -149,12 +150,11 @@ Go to notebook here.
 
 - CLI-tool for running LLMs
 - allows running models locally
-- allows for privacy and offline functionality
+- privacy
+- offline functionality
 
 ---
 # GPT4All
-
-
 
 ---
 
