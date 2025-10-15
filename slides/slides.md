@@ -145,16 +145,12 @@ Go to notebook here.
 # Text Generation: Large Language Models (LLMs)
 
 ---
-# Ollama
+# Ollama and GPT4ALL
 ![bg left](../pictures/ollama.png)
 
-- CLI-tool for running LLMs
-- allows running models locally
+- tools that allow running LLMs locally
 - privacy
 - offline functionality
-
----
-# GPT4All
 
 ---
 
