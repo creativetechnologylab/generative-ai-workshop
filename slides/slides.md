@@ -249,6 +249,8 @@ If our Criminal becomes very good at creating just _one type_ of fake painting, 
 - latent space navigation
 - model mixing
 - OSC communication
+- video generation
+- and some other interesting things...
 
 ---
 ![height:450](../pictures/interpolation.gif)
