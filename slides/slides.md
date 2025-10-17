@@ -39,6 +39,8 @@ style: |
 ---
 # WSL Setup
 
+Go to "WSL Setup" in linktree.
+
 ```
 >> git clone git@github.com:creativetechnologylab/generative-ai-workshop.git
 >> cd generative-ai-workshop
@@ -139,22 +141,24 @@ The knowledge on how to go from complete fog, to less foggy fog, and then to a f
 
 ---
 
-Go to notebook here.
+## Head over to the notebook.
 
 ---
 # Text Generation: Large Language Models (LLMs)
 
 ---
-# Ollama and GPT4ALL
+# Ollama & GPT4ALL
 ![bg left](../pictures/ollama.png)
 
-- tools that allow running LLMs locally
-- privacy
+- allows running LLMs locally
+- free
+- better privacy
 - offline functionality
+- can easily run on both Mac/Win
 
 ---
 
-Head over to the notebook.
+## Head over to the notebook.
 
 ---
 # Image Generation II
@@ -163,12 +167,12 @@ Head over to the notebook.
 ---
 # How do GANs compare to Stable Diffusion?
 
-* trained on a smaller, hand-picked dataset (< 5000)
+* trained on a smaller, hand-picked dataset (< 20000)
   - but you can get away with even smaller datasets (100s)
 * generates new instances of what it has been trained on and nothing else
 * more trial-and-error involved
 * greater freedom to customise/control your model
-* more ethical compared to Stable Diffusion
+* more ethical compared to diffusion models
 
 ---
 # GANs in Action - This Person Does Not Exist
@@ -234,7 +238,23 @@ If our Criminal becomes very good at creating just _one type_ of fake painting, 
 ![height:500](../pictures/mode-collapse-faces.webp)
 
 ---
-# Autolume - GANs Made Easy
+# Autolume
+## GANs Made Easy
+
+![bg right](../pictures/autolume.webp)
+
+---
+# Autolume Features
+
+- latent space navigation
+- model mixing
+- OSC communication
+
+---
+![height:450](../pictures/interpolation.gif)
+
+---
+## Now let's take a look at Autolume
 
 ---
 # GANs vs. Stable Diffusion
@@ -275,12 +295,10 @@ https://www.bing.com/images/create
 https://www.youtube.com/watch?v=hEk0Tas7xgE
 
 ---
-# Random Stuff I Want to Include Somewhere...
+# These Accounts Make a Surprising Amount of Money
 
-ChatGPT Romance: https://www.youtube.com/watch?v=hEk0Tas7xgE
-The weird stuff my Mum is addicted to: https://www.youtube.com/watch?v=VA1jS9KgVM0
+https://www.youtube.com/watch?v=VA1jS9KgVM0
 
----
 <!-- # Note to Self
 - StyleGAN2-ADA Playlist: https://youtube.com/playlist?list=PLWuCzxqIpJs8ViuBIUtAk-dsAtdrApYoy&si=BaFkx0Jl_VBV4GFy
 - Autolume Thesis: https://summit.sfu.ca/item/36414 -->
