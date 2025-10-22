@@ -204,14 +204,14 @@ Two "AI players" try to see who can outsmart who:
 
 * The Criminal "wins" a round of the game if it fools the Detective with its fakes.
 * The Detective "wins" a round of the game if it spots the fakes.
-* The loser then goes away and tries to improve their _strategy_. The game is repeated for several rounds. 
-* Hopefully, with enough time, the Criminal learns to create masterpieces that the Detective can't tell apart from the real thing. 
+* The loser then goes away and tries to improve their _strategy_. The game is repeated for several rounds.
+* Hopefully, with enough time, the Criminal learns to create masterpieces that the Detective can't tell apart from the real thing.
 * This is called **convergence.**
 
 ---
 # How a GAN Learns
 
-We want our Detective to become smarter as time goes on, so the Criminal is forced to become really good at creating fake paintings. We want our Criminal to become smarter as time goes on, so that its fakes are actually convincing. 
+We want our Detective to become smarter as time goes on, so the Criminal is forced to become really good at creating fake paintings. We want our Criminal to become smarter as time goes on, so that its fakes are actually convincing.
 
 Ideally, both the Criminal and the Detective grow smarter at around the same pace as the game progresses, otherwise...
 
