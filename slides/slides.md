@@ -126,22 +126,24 @@ The knowledge on how to go from complete fog, to less foggy fog, and then to a f
 
 ---
 
-Go to notebook here.
+## Head over to the notebook.
 
 ---
 # Text Generation: Large Language Models (LLMs)
 
 ---
-# Ollama and GPT4ALL
+# Ollama & GPT4ALL
 ![bg left](../pictures/ollama.png)
 
-- tools that allow running LLMs locally
-- privacy
+- allows running LLMs locally
+- free
+- better privacy
 - offline functionality
+- can easily run on both Mac/Win
 
 ---
 
-Head over to the notebook.
+## Head over to the notebook.
 
 ---
 # Image Generation II
@@ -150,12 +152,12 @@ Head over to the notebook.
 ---
 # How do GANs compare to Stable Diffusion?
 
-* trained on a smaller, hand-picked dataset (< 5000)
+* trained on a smaller, hand-picked dataset (< 20000)
   - but you can get away with even smaller datasets (100s)
 * generates new instances of what it has been trained on and nothing else
 * more trial-and-error involved
 * greater freedom to customise/control your model
-* more ethical compared to Stable Diffusion
+* more ethical compared to diffusion models
 
 ---
 # GANs in Action - This Person Does Not Exist
@@ -187,14 +189,14 @@ Two "AI players" try to see who can outsmart who:
 
 * The Criminal "wins" a round of the game if it fools the Detective with its fakes.
 * The Detective "wins" a round of the game if it spots the fakes.
-* The loser then goes away and tries to improve their _strategy_. The game is repeated for several rounds. 
-* Hopefully, with enough time, the Criminal learns to create masterpieces that the Detective can't tell apart from the real thing. 
+* The loser then goes away and tries to improve their _strategy_. The game is repeated for several rounds.
+* Hopefully, with enough time, the Criminal learns to create masterpieces that the Detective can't tell apart from the real thing.
 * This is called **convergence.**
 
 ---
 # How a GAN Learns
 
-We want our Detective to become smarter as time goes on, so the Criminal is forced to become really good at creating fake paintings. We want our Criminal to become smarter as time goes on, so that its fakes are actually convincing. 
+We want our Detective to become smarter as time goes on, so the Criminal is forced to become really good at creating fake paintings. We want our Criminal to become smarter as time goes on, so that its fakes are actually convincing.
 
 Ideally, both the Criminal and the Detective grow smarter at around the same pace as the game progresses, otherwise...
 
@@ -221,7 +223,25 @@ If our Criminal becomes very good at creating just _one type_ of fake painting, 
 ![height:500](../pictures/mode-collapse-faces.webp)
 
 ---
-# Autolume - GANs Made Easy
+# Autolume
+## GANs Made Easy
+
+![bg right](../pictures/autolume.webp)
+
+---
+# Autolume Features
+
+- latent space navigation
+- model mixing
+- OSC communication
+- video generation
+- and some other interesting things...
+
+---
+![height:450](../pictures/interpolation.gif)
+
+---
+## Now let's take a look at Autolume
 
 ---
 # GANs vs. Stable Diffusion
@@ -262,12 +282,10 @@ https://www.bing.com/images/create
 https://www.youtube.com/watch?v=hEk0Tas7xgE
 
 ---
-# Random Stuff I Want to Include Somewhere...
+# These Accounts Make a Surprising Amount of Money
 
-ChatGPT Romance: https://www.youtube.com/watch?v=hEk0Tas7xgE
-The weird stuff my Mum is addicted to: https://www.youtube.com/watch?v=VA1jS9KgVM0
+https://www.youtube.com/watch?v=VA1jS9KgVM0
 
----
 <!-- # Note to Self
 - StyleGAN2-ADA Playlist: https://youtube.com/playlist?list=PLWuCzxqIpJs8ViuBIUtAk-dsAtdrApYoy&si=BaFkx0Jl_VBV4GFy
 - Autolume Thesis: https://summit.sfu.ca/item/36414 -->
