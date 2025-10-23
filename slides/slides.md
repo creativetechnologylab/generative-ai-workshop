@@ -125,6 +125,57 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 The knowledge on how to go from complete fog, to less foggy fog, and then to a fog-less image, is our **model.**
 
 ---
+# A Bit About Python Environments
+
+Hopefully it wasn't too much hassle getting your scripts to work. But what was it actually doing?
+
+---
+# Remember Libraries? :snake:
+
+In the Python For Beginners workshop we used `pip` to install the `emoji` library. We were then able to use the `emoji` library to go from...
+
+---
+# Remember Libraries? :snake:
+
+* Libraries are like "expansion packs" for Python. They add a tools to our Python setup that help it achieve particular tasks. 
+
+* p5.js is in fact a _library_ that provides tools that make it easier to create visuals within Javascript.
+
+* Libraries exist across other languages too...
+
+---
+# Remember Libraries? :snake:
+
+In the Python For Beginners workshop we used libraries to help us with several different things including...
+
+* downloading images from the website Shopify
+* converting the bytes data we got from Shopify into a more useable format
+* creating folders in our Google Drive accounts
+* picking out a random item from a Python List
+* ...and applying glitchy effects to our images
+
+---
+# A Bit About Python Environments
+
+Python projects often work like this. They make use of multiple lirbaries. Python having a "library for everything" is what makes it so useful across different applications.
+
+---
+# A Bit About Python Environments
+
+* In order to use Python to generate images, audio, and video we're going to use a specific library that has the tools we need for this. (Text will be generated in a different way.)
+
+* This library is called **diffusers**. 
+
+* However, just because we need **diffusers** for Python Project A doesn't mean we need it for Python Project B...
+
+---
+# A Bit About Python Environments
+
+* Creating a Python **environment** helps us ensure that the libraries we need for one project 
+
+* The script took care of this. It created a specific **environment** called `gen-ai` and installed the libraries we will need to just that environment.
+
+---
 
 ## Head over to the notebook.
 
