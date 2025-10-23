@@ -32,14 +32,14 @@ style: |
 
 - Go to Start Menu
 - Launch Ubuntu
-- For the username and password just go with `ual`
+- For your username and password just go with `ual`
 - Go to linktr.ee/dolica.ual
 - Copy and paste the WSL Setup script into the command prompt
 
 ---
 # VSCode Setup
 
-- Start VSCode
+- Start Visual Studio Code
 - Go to extensions menu (left hand side)
 - Install the WSL extention
 - Open the `generative-ai-workshop` folder as a project
@@ -150,7 +150,7 @@ The knowledge on how to go from complete fog, to less foggy fog, and then to a f
 ## Generative Adversarial Networks (GANs)
 
 ---
-# How do GANs compare to Stable Diffusion?
+# How do GANs compare to Diffusion?
 
 * trained on a smaller, hand-picked dataset (< 20000)
   - but you can get away with even smaller datasets (100s)
@@ -244,7 +244,7 @@ If our Criminal becomes very good at creating just _one type_ of fake painting, 
 ## Now let's take a look at Autolume
 
 ---
-# GANs vs. Stable Diffusion
+# GANs vs. Diffusion Models
 
 ![height:550px](../pictures/diffusion-and-gans.jpg)
 
