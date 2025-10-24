@@ -122,31 +122,48 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 ---
 # How Diffusion Works
 
-The knowledge on how to go from complete fog, to less foggy fog, and then to a fog-less image, is our **model.**
+The knowledge on how to go from complete fog, to less foggy fog, and then to a clear fog-free image, is our **model.**
 
 ---
 # A Bit About Python Environments
 
-Hopefully it wasn't too much hassle getting your scripts to work. But what was it actually doing?
+Hopefully it wasn't too much hassle getting your scripts to work. But what was it all _actually_ doing?
 
 ---
 # Remember Libraries? :snake:
 
-In the Python For Beginners workshop we used `pip` to install the `emoji` library. We were then able to use the `emoji` library to go from...
+In the **Python For Beginners** workshop we used `pip` to install the `emoji` library by using this command: 
+
+`pip install emoji`
+
 
 ---
 # Remember Libraries? :snake:
 
-* Libraries are like "expansion packs" for Python. They add a tools to our Python setup that help it achieve particular tasks. 
+We were then able to use the `emoji` library to do this:
 
-* p5.js is in fact a _library_ that provides tools that make it easier to create visuals within Javascript.
+```python
+emojified_text = emoji.emojize("There's a :snake: in my boots!")
+print(emojified_text)
+```
+
+￬
+
+`There's a 🐍 in my boots!`
+
+---
+# Remember Libraries? :snake:
+
+* Libraries are like "expansion packs" for Python. They add a tools to our Python setup that help it perform particular tasks. 
 
 * Libraries exist across other languages too...
 
+* p5.js is actually a _library_ that provides tools that make it easier to create visuals with Javascript.
+
 ---
 # Remember Libraries? :snake:
 
-In the Python For Beginners workshop we used libraries to help us with several different things including...
+In the **Python For Beginners** workshop we used libraries to help us with several different things including...
 
 * downloading images from the website Shopify
 * converting the bytes data we got from Shopify into a more useable format
@@ -157,7 +174,9 @@ In the Python For Beginners workshop we used libraries to help us with several d
 ---
 # A Bit About Python Environments
 
-Python projects often work like this. They make use of multiple lirbaries. Python having a "library for everything" is what makes it so useful across different applications.
+Python projects often work like this. They make use of multiple libraries all working together towards a larger goal.
+
+Python has "a library for everything," which is what makes it so useful when dealing with a wide range of problems.
 
 ---
 # A Bit About Python Environments
@@ -171,9 +190,9 @@ Python projects often work like this. They make use of multiple lirbaries. Pytho
 ---
 # A Bit About Python Environments
 
-* Creating a Python **environment** helps us ensure that the libraries we need for one project 
+* Creating a Python **environment** helps us ensure that we have different Python setups for different projects.
 
-* The script took care of this. It created a specific **environment** called `gen-ai` and installed the libraries we will need to just that environment.
+* The script did this for us. It created a specific **environment** named `gen-ai` and installed the libraries that the code needs for generating images, text, audio, etc.
 
 ---
 
