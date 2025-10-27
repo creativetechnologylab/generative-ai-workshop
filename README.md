@@ -14,7 +14,7 @@
 2. Give a very basic username/password. `ual` is perfectly fine.
 3. Enter the following command:
 
-```
+```shell
 git clone https://github.com/creativetechnologylab/generative-ai-workshop.git \
   && cd generative-ai-workshop \
   && chmod +x install.sh env.sh \
