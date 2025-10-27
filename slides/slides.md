@@ -157,7 +157,7 @@ print(emojified_text)
 
 * Libraries exist across other languages too...
 
-* p5.js is actually a _library_ that provides tools that make it easier to create visuals with Javascript.
+* p5.js is actually a _library_ that provides tools that make it easier to create visuals with JavaScript.
 
 ---
 # Remember Libraries? :snake:
@@ -189,20 +189,20 @@ Python has "a library for everything," which is what makes it so useful when dea
 ---
 # A Bit About Python Environments
 
-* To generate images, audio, and video, we’re using a specialised library called **diffusers.**
+* To generate images, audio, and video, we're going to use a specialised library called **diffusers.**
 
-* But just because we need **diffusers** for _Python Project A_ doesn’t mean we want it installed for _Python Project B._
+* But just because we need **diffusers** for _Python Project A_ doesn't mean we want it installed for _Python Project B._
 
 * Different projects often need different tools - this is something we can manage through **environments.**
 
 ---
 # A Bit About Python Environments
 
-* Creating a Python **environment** helps us ensure that we have different Python setups for different projects.
+* Creating a Python **environment** helps us ensure that we have different Python setups for our different projects.
 
 * This helps keeps things clean. When we run code for one project, it uses a Python setup that _only_ has the Python libraries needed for just that project.
 
-* The script created a specific **environment** named `gen-ai` and installed the libraries that the code needs for generating images, text, audio, etc.
+* The script you just ran has created a special **environment** named `gen-ai` and installed the libraries that the code needs for generating images, audio, etc.
 
 ---
 
