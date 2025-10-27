@@ -46,6 +46,6 @@ This should download all the workshop files and create the Python environment we
 | `ls` | List files and directories | `ls -la` |
 | `cd` | Move directory | `cd Documents` |
 | `mkdir` | Create a new directory | `mkdir new_folder` |
-| `rm` | Remove files or directories | `rm file.txt` `rm -r folder/` |
+| `rm` | Remove files or directories | `rm file.txt` |
 | `echo` | Print text to terminal or redirect output | `echo "Hello"` |
 | `chmod` | Change file permissions | `chmod +x script.sh` |
