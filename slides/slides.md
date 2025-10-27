@@ -136,7 +136,6 @@ In the **Python For Beginners** workshop we used `pip` to install the `emoji` li
 
 `pip install emoji`
 
-
 ---
 # Remember Libraries? :snake:
 
@@ -154,7 +153,7 @@ print(emojified_text)
 ---
 # Remember Libraries? :snake:
 
-* Libraries are like "expansion packs" for Python. They add a tools to our Python setup that help it perform particular tasks. 
+* Libraries are like add-ons for Python. They provide extra tools to our Python setup that help it carry out particular tasks. 
 
 * Libraries exist across other languages too...
 
@@ -171,28 +170,39 @@ In the **Python For Beginners** workshop we used libraries to help us with sever
 * picking out a random item from a Python List
 * ...and applying glitchy effects to our images
 
+Each library was like a small helper that knew how to do one specific job well.
+
 ---
 # A Bit About Python Environments
 
 Python projects often work like this. They make use of multiple libraries all working together towards a larger goal.
 
-Python has "a library for everything," which is what makes it so useful when dealing with a wide range of problems.
+![bg right:33%](../pictures/pick-n-mix.jpeg)
 
 ---
 # A Bit About Python Environments
 
-*In order to use Python to generate images, audio, and video we're going to use a specific library that has the tools we need for this. (Text will be generated in a different way.)
+Python has "a library for everything," which is what makes it so useful when dealing with a wide variety of projects.
 
-* This library is called **diffusers**. 
+![height:400](../pictures/swiss-army-knife.png)
 
-* However, just because we need **diffusers** for Python Project A doesn't mean we need it for Python Project B...
+---
+# A Bit About Python Environments
+
+* To generate images, audio, and video, we’re using a specialised library called **diffusers.**
+
+* But just because we need **diffusers** for _Python Project A_ doesn’t mean we want it installed for _Python Project B._
+
+* Different projects often need different tools - this is something we can manage through **environments.**
 
 ---
 # A Bit About Python Environments
 
 * Creating a Python **environment** helps us ensure that we have different Python setups for different projects.
 
-* The script did this for us. It created a specific **environment** named `gen-ai` and installed the libraries that the code needs for generating images, text, audio, etc.
+* This helps keeps things clean. When we run code for one project, it uses a Python setup that _only_ has the Python libraries needed for just that project.
+
+* The script created a specific **environment** named `gen-ai` and installed the libraries that the code needs for generating images, text, audio, etc.
 
 ---
 
