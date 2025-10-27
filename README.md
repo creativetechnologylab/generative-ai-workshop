@@ -31,5 +31,6 @@ This should download all the workshop files and create the Python environment we
 2. Go to the Extentions menu
 3. Search for "WSL"
 4. Install the WSL extension
-
-TODO.
+5. Open the `generative-ai-with-python` folder.
+6. Open the file `code\generative-ai.ipynb`
+7. At this stage Visual Studio Code will ask you if you wish to install some extra extensions - say **yes**
