@@ -181,7 +181,7 @@ Python has "a library for everything," which is what makes it so useful when dea
 ---
 # A Bit About Python Environments
 
-* In order to use Python to generate images, audio, and video we're going to use a specific library that has the tools we need for this. (Text will be generated in a different way.)
+*In order to use Python to generate images, audio, and video we're going to use a specific library that has the tools we need for this. (Text will be generated in a different way.)
 
 * This library is called **diffusers**. 
 
