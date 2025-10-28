@@ -38,4 +38,8 @@ bash ./Miniforge3-Linux-x86_64.sh -b
 /home/$USER/miniforge3/bin/conda init
 rm ./Miniforge3-Linux-x86_64.sh
 cd generative-ai-workshop
-exec bash
+# exec bash
+
+/home/ual/miniforge3/bin/conda create --name gen-ai python=3.10 -y
+/home/ual/miniforge3/bin/conda activate gen-ai
+/home/$USER/miniforge3/envs/gen-ai/bin/pip install -r requirements.txt
