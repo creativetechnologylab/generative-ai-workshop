@@ -19,8 +19,8 @@
 git clone https://github.com/creativetechnologylab/generative-ai-workshop.git \
   && cd generative-ai-workshop \
   && chmod +x install.sh env.sh \
-  && ./install.sh \
-  && ./env.sh \
+  && . ./install.sh \
+  && . ./env.sh \
   && conda activate gen-ai
 ```
 
