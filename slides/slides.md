@@ -132,7 +132,7 @@ Hopefully it wasn't too much hassle getting your scripts to work. But what was i
 ---
 # Remember Libraries? :snake:
 
-In the **Python For Beginners** workshop we used `pip` to install the `emoji` library by using this command: 
+In the **Python For Beginners** workshop we used `pip` to install the `emoji` library by using this command:
 
 `pip install emoji`
 
@@ -153,7 +153,7 @@ print(emojified_text)
 ---
 # Remember Libraries? :snake:
 
-* Libraries are like add-ons for Python. They provide extra tools to our Python setup that help it carry out particular tasks. 
+* Libraries are like add-ons for Python. They provide extra tools to our Python setup that help it carry out particular tasks.
 
 * Libraries exist across other languages too...
 
