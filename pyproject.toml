@@ -23,3 +23,7 @@ dependencies = [
     "transformers>=4.57.1",
     "whisper>=1.1.10",
 ]
+[dependency-groups]
+dev = [
+    "pre-commit",
+]
