@@ -38,8 +38,4 @@ bash ./Miniforge3-Linux-x86_64.sh -b
 /home/$USER/miniforge3/bin/conda init
 rm ./Miniforge3-Linux-x86_64.sh
 cd generative-ai-workshop
-
-# TEST !!!
-source /home/ual/miniforge3/bin/activate 
-
-# exec bash
+exec bash
