@@ -1,7 +1,7 @@
 [project]
 name = "generative-ai-workshop"
 version = "0.1.0"
-description = "Add your description here"
+description = "The world's best generative AI workshop."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
