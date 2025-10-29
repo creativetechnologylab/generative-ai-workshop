@@ -29,21 +29,10 @@ git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 # Clone text-generation-webui - may not use this in the end
 git clone https://github.com/oobabooga/text-generation-webui.git
 
+# Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
+
+# Back into the workshop folder
 cd generative-ai-workshop
 uv sync
-
-# Install Miniforge
-# echo "Installing Miniforge..."
-# wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
-# chmod +x ./Miniforge3-Linux-x86_64.sh
-
-# bash ./Miniforge3-Linux-x86_64.sh -b
-# /home/$USER/miniforge3/bin/conda init
-# rm ./Miniforge3-Linux-x86_64.sh
-# cd generative-ai-workshop
-
-# /home/$USER/miniforge3/bin/conda create --name gen-ai python=3.10 -y
-# /home/$USER/miniforge3/bin/conda activate gen-ai
-# /home/$USER/miniforge3/envs/gen-ai/bin/pip install -r requirements.txt
