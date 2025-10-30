@@ -66,16 +66,6 @@ _Generative artificial intelligence (AI) describes algorithms that can be used t
 ## Generative Adversarial Networks (GANs)
 
 ---
-# GAN Features
-
-* trained on a smaller, hand-picked dataset (< 20000)
-  - but you can get away with even smaller datasets (100s)
-* generates new instances of what it has been trained on and nothing else
-* more trial-and-error involved
-* greater freedom to customise/control your model
-* more ethical compared to diffusion models
-
----
 # GANs in Action - This Person Does Not Exist
 
 https://thispersondoesnotexist.com/
@@ -86,6 +76,16 @@ https://thispersondoesnotexist.com/
 # GANs in Action - This Person Should Not Exist
 
 ![height:350](../pictures/should-not-exist.png)
+
+---
+# GAN Features
+
+* trained on a smaller, hand-picked dataset (< 20000)
+  - but you can get away with even smaller datasets (100s)
+* generates new instances of what it has been trained on and nothing else
+* more trial-and-error involved
+* greater freedom to customise/control your model
+* more ethical compared to diffusion models
 
 ---
 # How a GAN Learns
