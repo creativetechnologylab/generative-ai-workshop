@@ -36,3 +36,6 @@ source $HOME/.local/bin/env
 # Back into the workshop folder
 cd generative-ai-workshop
 uv sync
+
+# get the weights file
+wget https://data.pjreddie.com/files/yolov3.weights -P object-detection/
