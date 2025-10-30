@@ -9,7 +9,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 # Install and setup ranger
 sudo apt update
-sudo apt-get install -y ranger tesseract-ocr
+sudo apt-get install -y ranger tesseract-ocr ffmpeg
 echo "alias ranger='. ranger'" >> ~/.bashrc
 
 # Get some Ollama models
