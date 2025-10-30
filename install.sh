@@ -23,9 +23,6 @@ ollama list
 # Move up one folder
 cd ..
 
-# Clone text-generation-webui - may not use this in the end
-git clone https://github.com/oobabooga/text-generation-webui.git
-
 # Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
