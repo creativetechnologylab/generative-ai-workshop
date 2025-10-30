@@ -20,15 +20,11 @@ ollama pull deepseek-r1:7b
 ollama pull glm4:latest
 ollama list
 
-# Move up one folder
-cd ..
-
 # Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
 
-# Back into the workshop folder
-cd generative-ai-workshop
+# Setup environment
 uv sync
 
 # get the weights file
