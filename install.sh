@@ -7,7 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 echo "Installing Ollama..."
 curl -fsSL https://ollama.com/install.sh | sh
 
-# Install and setup ranger
+# Install and setup ranger + other useful stuff
 sudo apt update
 sudo apt-get install -y ranger tesseract-ocr ffmpeg
 echo "alias ranger='. ranger'" >> ~/.bashrc
