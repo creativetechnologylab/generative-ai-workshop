@@ -28,25 +28,6 @@ style: |
 - REBOOT
 
 ---
-# Setup
-
-- Go to Start Menu
-- Launch Ubuntu
-- For your username and password just go with `ual`
-- Go to linktr.ee/dolica.ual
-- Copy and paste the WSL Setup script into the command prompt
-
----
-# VSCode Setup
-
-- Start Visual Studio Code
-- Go to extensions menu (left hand side)
-- Install the WSL extention
-- Open the `generative-ai-workshop` folder as a project
-- Open the file `code/generative-ai.ipynb`
-- VS Code will ask you to install some additional extensions
-
----
 # Generative AI
 ![bg left:40%](../pictures/art-competition-winner.webp)
 
@@ -137,6 +118,25 @@ If our Criminal becomes very good at creating just _one type_ of fake painting, 
 # GAN Challenges - Mode Collapse
 
 ![height:500](../pictures/mode-collapse-faces.webp)
+
+---
+# Setup
+
+- Go to Start Menu
+- Launch Ubuntu
+- For your username and password just go with `ual`
+- Go to linktr.ee/dolica.ual
+- Copy and paste the WSL Setup script into the command prompt
+
+---
+# VSCode Setup
+
+- Start Visual Studio Code
+- Go to extensions menu (left hand side)
+- Install the WSL extention
+- Open the `generative-ai-workshop` folder as a project
+- Open the file `code/generative-ai.ipynb`
+- VS Code will ask you to install some additional extensions
 
 ---
 # Autolume
