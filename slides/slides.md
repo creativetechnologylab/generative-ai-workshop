@@ -129,16 +129,6 @@ If our Criminal becomes very good at creating just _one type_ of fake painting, 
 - Copy and paste the WSL Setup script into the command prompt
 
 ---
-# VSCode Setup
-
-- Start Visual Studio Code
-- Go to extensions menu (left hand side)
-- Install the WSL extention
-- Open the `generative-ai-workshop` folder as a project
-- Open the file `code/generative-ai.ipynb`
-- VS Code will ask you to install some additional extensions
-
----
 # Autolume
 ## GANs Made Easy
 
@@ -221,6 +211,17 @@ Examples: Midjourney, Dall-E, Stable Diffusion
 # How Diffusion Works
 
 The knowledge on how to go from complete fog, to less foggy fog, and then to a clear fog-free image, is our **model.**
+
+---
+# VSCode Setup
+
+- Open Ubuntu
+- Start Visual Studio Code
+- Go to extensions menu (left hand side)
+- Install the WSL extention
+- Open the `generative-ai-workshop` folder as a project
+- Open the file `code/generative-ai.ipynb`
+- Visual Studio Code will ask you to install some additional extensions
 
 ---
 # A Bit About Python Environments
@@ -342,6 +343,8 @@ https://www.bing.com/images/create
 ---
 # Visual "Hallucination"
 
+This may or may not actually be Arabic...
+
 ![height:500](../pictures/arabic-text-dall-e.jpeg)
 
 ---
@@ -355,11 +358,11 @@ https://www.bing.com/images/create
 ![height:500](../pictures/dall-e-sonic.jpeg)
 
 ---
-# Peverse AI
-
-## ChatGPT Romance
+# Peverse AI - ChatGPT Romance
 
 https://www.youtube.com/watch?v=hEk0Tas7xgE
+
+![height:500](../pictures/south-park.jpg)
 
 ---
 # These Accounts Make a Surprising Amount of Money
