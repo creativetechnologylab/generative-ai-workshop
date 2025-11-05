@@ -1,5 +1,9 @@
 # Generative AI with Python
 
+## Overview
+
+Files for a workshop aimed at introducting students to GANs, Diffusion Models, and LLMs.
+
 ## Setup
 
 ### WSL Installation
