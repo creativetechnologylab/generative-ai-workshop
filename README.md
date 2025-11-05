@@ -26,8 +26,6 @@ git clone https://github.com/creativetechnologylab/generative-ai-workshop.git \
   && . ./install.sh
 ```
 
-<!-- May not need the final command. Also need to double-check if it all works. -->
-
 This should download all the workshop files and create the Python environment we need.
 
 ### Preparing Visual Studio Code
