@@ -30,6 +30,7 @@ dependencies = [
     "soundfile>=0.13.1",
     "tensorboard>=2.20.0",
     "transformers>=4.57.1",
+    "whisper>=1.1.10",
 ]
 [dependency-groups]
 dev = [
