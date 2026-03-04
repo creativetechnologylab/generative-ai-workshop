@@ -25,22 +25,13 @@ style: |
 
 - Open Powershell
 - Use the command: `wsl.exe --install Ubuntu`
-- REBOOT
+- Wait...
 
 ---
 # Generative AI
 ![bg left:40%](../pictures/art-competition-winner.webp)
 
 _Generative artificial intelligence (AI) describes algorithms that can be used to create new content, including audio, code, images, text, videos, and other data._
-
----
-- ChatGPT
-- StableDiffusion
-- Midjourney
-- Dall-E
-- Claude
-- Deepseek
-- Etc...
 
 ---
 # Image Generation I
@@ -71,14 +62,6 @@ https://thispersondoesnotexist.com/
 ---
 # How a GAN Learns
 
-Two "AI players" try to see who can outsmart who:
-
-- **Generator** - Creates fake images.
-- **Discriminator** - Is given a mix of fake images and real ones, and attempts to spot the fakes.
-
----
-# How a GAN Learns
-
 ![](../pictures/gans-metaphor.png)
 
 ---
@@ -89,13 +72,6 @@ Two "AI players" try to see who can outsmart who:
 * The loser then goes away and tries to improve their _strategy_. The game is repeated for several rounds.
 * Hopefully, with enough time, the Criminal learns to create masterpieces that the Detective can't tell apart from the real thing.
 * This is called **convergence.**
-
----
-# How a GAN Learns
-
-We want our Detective to become smarter as time goes on, so the Criminal is forced to become really good at creating fake paintings. We want our Criminal to become smarter as time goes on, so that its fakes are actually convincing.
-
-Ideally, both the Criminal and the Detective grow smarter at around the same pace as the game progresses, otherwise...
 
 ---
 # GAN Challenges
@@ -338,19 +314,9 @@ Python has "a library for everything," which is what makes it so useful when dea
 ---
 # Visual "Hallucination"
 
-https://www.bing.com/images/create
-
----
-# Visual "Hallucination"
-
 This may or may not actually be Arabic...
 
 ![height:500](../pictures/arabic-text-dall-e.jpeg)
-
----
-# Copyright
-
-https://www.bing.com/images/create
 
 ---
 # Copyright
