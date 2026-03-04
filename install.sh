@@ -3,14 +3,14 @@
 # Temporarily make installations non-interactive
 export DEBIAN_FRONTEND=noninteractive
 
+# Install and setup ranger + other useful stuff
+sudo apt update
+sudo apt-get install -y ranger tesseract-ocr ffmpeg zstd
+echo "alias ranger='. ranger'" >> ~/.bashrc
+
 # Install Ollama
 echo "Installing Ollama..."
 curl -fsSL https://ollama.com/install.sh | sh
-
-# Install and setup ranger + other useful stuff
-sudo apt update
-sudo apt-get install -y ranger tesseract-ocr ffmpeg
-echo "alias ranger='. ranger'" >> ~/.bashrc
 
 # Get some Ollama models
 echo "Getting some Ollama models..."
