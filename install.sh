@@ -29,3 +29,15 @@ uv sync
 
 # get the weights file
 wget https://data.pjreddie.com/files/yolov3.weights -P object-detection/
+
+export HF_XET_HIGH_PERFORMANCE=1
+export HF_XET_NUM_CONCURRENT_RANGE_GETS=24
+
+uv run hf download segmind/tiny-sd
+uv run hf download nitrosocke/Ghibli-Diffusion
+uv run hf download SimianLuo/LCM_Dreamshaper_v7
+uv run hf download lykon/dreamshaper-8
+uv run hf download kandinsky-community/kandinsky-2-2-decoder
+uv run hf download damo-vilab/text-to-video-ms-1.7b
+uv run hf download kandinsky-community/kandinsky-2-2-prior
+
