@@ -11,13 +11,8 @@ Files for a workshop aimed at introducting students to GANs, Diffusion Models, a
 1. Open the Powershell
 2. Enter the command `wsl.exe --install Ubuntu` and press ENTER
 3. Wait for the installation to complete
-3. Reboot the machine
-
-### Getting the Workshop Files
-
-1. Launch Ubuntu
-2. You will be asked to give a username and password. Some very simple like `ual` is perfectly fine.
-3. Copy and paste the following command then hit ENTER:
+4. You will be asked to give a username and password. Some very simple like `ual` is perfectly fine.
+5. Copy and paste the following command then hit ENTER:
 
 ```shell
 git clone https://github.com/creativetechnologylab/generative-ai-workshop.git \
