@@ -32,7 +32,6 @@ wget https://data.pjreddie.com/files/yolov3.weights -P object-detection/
 
 export HF_XET_HIGH_PERFORMANCE=1
 export HF_XET_NUM_CONCURRENT_RANGE_GETS=32
-export HF_HUB_VERBOSITY=error
 
 uv run hf download segmind/tiny-sd --include "*.safetensors" --include "*.json"
 uv run hf download nitrosocke/Ghibli-Diffusion --include "*.safetensors" --include "*.json"
