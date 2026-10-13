@@ -1,0 +1,32 @@
+[workspace]
+authors = ["DolicaAkelloEgwel <d.akelloegwel@lcc.arts.ac.uk>"]
+channels = ["conda-forge"]
+name = "generative-ai-workshop"
+platforms = [
+  { platform = "win-64", cuda = "12.4" },
+]
+version = "0.1.0"
+
+[tasks.setup-ollama]
+cmd = "pixi run ollama pull moondream dolphin-phi deepseek-r1:7b glm4:latest"
+
+[dependencies]
+ffmpeg = ">=9.0.2,<10"
+ollama = ">=0.32.15,<0.33"
+numpy = ">=2.5.4,<3"
+py-opencv = ">=5.0.0,<6"
+diffusers = ">=0.41.0,<0.42"
+pillow = ">=12.3.0,<13"
+transformers = ">=5.19.0,<6"
+ollama-python = ">=0.6.3,<0.7"
+ipykernel = ">=7.4.0,<8"
+pytorch = ">=2.13.0,<3"
+torchvision = ">=0.28.0,<0.29"
+ipywidgets = ">=8.1.9,<9"
+accelerate = ">=1.15.0,<2"
+requests = ">=2.34.2,<3"
+scipy = ">=1.18.1,<2"
+hf-xet = ">=1.7.0,<2"
+imageio = ">=2.38.1,<3"
+imageio-ffmpeg = ">=0.6.0,<0.7"
+huggingface_hub = ">=1.32.0,<2"

@@ -3,3 +3,6 @@ object-detection/yolov3.weights*
 output-spiderman.mp4
 output-car.mp4
 code/musicgen_out.wav
+# pixi environments
+.pixi/*
+!.pixi/config.toml
