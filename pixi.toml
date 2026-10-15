@@ -50,3 +50,10 @@ ultralytics = ">=8.4.177,<9"
 
 [pypi-dependencies]
 kokoro = ">=0.9.4, <0.10"
+
+[feature.dev.dependencies]
+pre-commit = "*"
+
+[environments]
+default = []
+dev = ["dev"]
