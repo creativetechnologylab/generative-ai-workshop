@@ -45,6 +45,8 @@ openai-whisper = ">=20250625,<20250626"
 ftfy = ">=6.3.1,<7"
 pytesseract = ">=0.3.13,<0.4"
 pyzmq = ">=27.2.0,<28"
+uv = ">=0.13.1,<0.14"
+ultralytics = ">=8.4.177,<9"
 
 [pypi-dependencies]
-kokoro = "*"
+kokoro = ">=0.9.4, <0.10"
