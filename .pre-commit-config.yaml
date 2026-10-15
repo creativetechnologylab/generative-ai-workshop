@@ -6,11 +6,11 @@ repos:
         args:
           - --remove-kernel-metadata
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
     -   id: trailing-whitespace
 -   repo: https://github.com/psf/black
-    rev: 25.1.0
+    rev: 26.10.1
     hooks:
       - id: black-jupyter
         language_version: python3.14
