@@ -6,3 +6,4 @@ code/musicgen_out.wav
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+/code/yolo11n.pt
