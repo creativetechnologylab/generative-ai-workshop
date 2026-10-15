@@ -14,7 +14,6 @@ hf download nitrosocke/Ghibli-Diffusion --include "*.safetensors" --include "*.j
 hf download SimianLuo/LCM_Dreamshaper_v7 --include "*.safetensors" --include "*.json"
 hf download lykon/dreamshaper-8 --include "*.safetensors" --include "*.json"
 hf download kandinsky-community/kandinsky-2-2-decoder --include "*.safetensors" --include "*.json"
-hf download damo-vilab/text-to-video-ms-1.7b --include "*.safetensors" --include "*.json"
 hf download kandinsky-community/kandinsky-2-2-prior --include "*.safetensors" --include "*.json"
 """
 
