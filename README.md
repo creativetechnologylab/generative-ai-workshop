@@ -9,7 +9,8 @@ Files for a workshop aimed at introducting students to GANs, Diffusion Models, a
 ### Windows Installation
 
 1. Download and unzip the workshop files
-2. Open the workshop folder in the terminal
+2. Run the `scoop-install.bat` file
+3. Run the `win-install.bat` file
 
 ### WSL Installation
 
