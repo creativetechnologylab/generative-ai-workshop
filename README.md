@@ -6,6 +6,11 @@ Files for a workshop aimed at introducting students to GANs, Diffusion Models, a
 
 ## Setup
 
+### Windows Installation
+
+1. Download and unzip the workshop files
+2. Open the workshop folder in the terminal
+
 ### WSL Installation
 
 1. Open the Powershell
