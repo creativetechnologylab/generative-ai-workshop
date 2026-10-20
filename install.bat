@@ -1,9 +1,9 @@
 @echo off
 
-scoop install main/ollama
+call scoop install main/ollama
 start "" ollama serve
 
-scoop install main/pixi
+call scoop install main/pixi
 
 ollama pull moondream
 ollama pull dolphin-phi
