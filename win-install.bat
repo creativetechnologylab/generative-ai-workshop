@@ -13,6 +13,7 @@ ollama pull glm4:latest
 call code --install-extension ms-python.python
 call code --install-extension ms-toolsai.jupyter
 call code --install-extension renan-r-santos.pixi-code
+call code --enable-proposed-api renan-r-santos.pixi-code
 
 pixi install
 pixi run download-hf-models
