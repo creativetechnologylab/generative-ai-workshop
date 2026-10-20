@@ -14,8 +14,6 @@ call code --install-extension ms-python.python
 call code --install-extension ms-toolsai.jupyter
 call code --install-extension renan-r-santos.pixi-code
 
-exit
-
 pixi install
 pixi run download-hf-models
 
